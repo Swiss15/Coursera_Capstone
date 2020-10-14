@@ -1,0 +1,14 @@
+Introduction / Business Problem
+
+Business Problem: What is the probability that i will get into an car accident and how severe will it be? Are certain conditions more likely to result in an accident?
+
+Target Audience: People that have to drive from point a to point b every day for work. So that they know if it is more dangerous to drive this road that day /
+and how long it would take because of possible accidents
+Ambulance / Fire Department / Police so they can plan accordingly how to have enough and the right people available to help the injured people.
+
+Data: CSV File about Data Collisions. 30 Columns. 194673 Entries. I will try to build a ml model with the columns: Weather, Light Conditions, Road Conditions, Severity Code,Speeding
+Weather: Weather conditions during the collision
+Light Condition: Light Condition during the collision
+Road Condition: Road Condition during the collision
+Speeding: Was speeding a factor in the collision?
+Severity Code: 3(Fatality), 2b(serious injury), 2(injury), 1(prop damage), 0(unknown)
