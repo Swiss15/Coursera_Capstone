@@ -12,3 +12,5 @@ Light Condition: Light Condition during the collision
 Road Condition: Road Condition during the collision
 Speeding: Was speeding a factor in the collision?
 Severity Code: 3(Fatality), 2b(serious injury), 2(injury), 1(prop damage), 0(unknown)
+The Column Severity Code unfortunately only got 2 different variables in the CSV File. So i have to deal with this issue.
+In the Column Speeding are many missing values. So i have to eliminate that column from my model to improve the accuracy. 
